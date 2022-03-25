@@ -1,0 +1,90 @@
+@media screen and (min-width:960px) {
+  * {
+      position: relative;
+    }
+
+    body {
+        overflow: scroll;
+        height: 100vh;
+        background: black;
+    }
+
+    .conjunto {
+      margin: 0 auto;
+    }
+
+    .conte {
+      height: 650px;
+      width: 16.5%;
+      box-shadow: 0 0 7px #fff;
+      margin: 0 30px;
+      background-color: black;
+      float: left;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .conte .card {
+      height: 200px;
+      margin-bottom: 170px;
+    }
+
+    img {
+      height: 561px;
+      width: 330px;
+      filter: grayscale(80%);
+    }
+
+    img:hover {
+      filter: none;
+    }
+
+    .info h1 {
+      font-size: 1.2em;
+      text-align: center;
+      color: #fff;
+      bottom: -210px;
+    }
+
+    .info p {
+      text-align: center;
+      font-family: Montserrat;
+      font-size: .9em;
+      color: #fff;
+      bottom: -210px;
+    }
+
+    .uf {
+      height: 50px;
+      width: 85%;
+      margin: auto;
+      font-family: Montserrat;
+      display: flex;
+    }
+
+    .ufs {
+      color: red;
+      font-size: .8em;
+      bottom: -180px;
+    }
+
+    h1 {
+      font-family: NBA Nets;
+    }
+
+
+
+    #kyrie{box-shadow: 0 0 7px #fff;}
+    #lebron{box-shadow: 0 0 8px #542781;}
+    #beal{box-shadow: 0 0 7px #5d76a9;}
+    #lavine{box-shadow: 0 0 7px #e30616;}
+    #trae{box-shadow: 0 0 7px #dc2c34;}
+    #lamelo{box-shadow: 0 0 7px #0083a5;}
+    #shai{box-shadow: 0 0 7px #de5331;}
+    #embiid{box-shadow: 0 0 7px #bb9753;}
+    #curry{box-shadow: 0 0 7px #fdb927;}
+    #demar{box-shadow: 0 0 7px #e30616;}
+    #morant{box-shadow: 0 0 7px #5d76a9;}
+    #luka{box-shadow: 0 0 7px #c4ced4;}
+    #durant{box-shadow: 0 0 7px #fff;}
+}

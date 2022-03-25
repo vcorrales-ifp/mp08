@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+body {
+  background: #C62828;
+  font-family: "Varela Round", sans-serif;
+
+}
+nav {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  margin: 50px auto;
+}
+
+img {
+  width: 50px;
+  height: 55px;
+}
+
+div {
+  background: #B71C1C;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  margin: 50px auto;
+}
+ul > li {
+  display: inline-block;
+  padding: 15px 55px;
+}
+
+nav > h2, h3, h4 {
+  display: inline-block;
+}
+
+nav > h2, h3, h4, a {
+  padding: 15px 55px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.funcionalitats {
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  width: calc(33.3333% - 40px);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+h6 {
+  font-size: 25px;
+}
+
+.funcionalitats > p {
+  padding: 0;
+  margin: 20px 0 40px 0;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.captures {
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  width: 1700px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+.captures > img {
+  display: inline-block;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+}
+
+.companyia {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  width: 325px;
+  height: 265px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 0 0 20px 220px;
+  float: left;
+}
+.companyia > p {
+  padding: 10px;
+}
+.companyia > img {
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.funcionament {
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  width: 800px;
+  height: 265px;
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+  margin: 0 20px;
+  float: left;
+}
+
+.funcionament > p {
+  padding: 10px 100px;
+}
+
+.unidays {
+  height: 300px;
+  width: 495px;
+  border-radius: 5px;
+}
+
+.valoracio {
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  width: 1700px;
+  height: 265px;
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+  margin: 0 0 20px 220px;
+  float: left;
+}
+
+.avantatges, .inconvenients {
+  margin: 40px;
+}

@@ -1,0 +1,50 @@
+.tabla {
+  width: 800px;
+  height: 800px;
+  background-color: grey;
+}
+
+.casella {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+
+.fila .casella:nth-child(2n) {
+  background-color: yellow;
+}
+
+.fila:nth-child(2n) .casella {
+  background-color: yellow;
+}
+
+.fila:nth-child(2n) .casella:nth-child(2n) {
+  background-color: black;
+}
+
+.fila:nth-child(2n+1) .casella:nth-child(2n+1) {
+  background-color: black;
+}
+
+b {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  padding: 0;
+  background-color: white;
+  border-radius: 50%;
+  background-image: linear-gradient(red, orange);
+}
+
+.fila:nth-child(n+3) b {
+  display: none;
+  background-image: linear-gradient(purple, blue);
+}
+
+.fila:nth-child(n+7) b {
+  display: block;
+  background-color: red;
+
+}

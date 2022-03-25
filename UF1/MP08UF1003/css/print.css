@@ -1,0 +1,58 @@
+body {
+  width: 210mm;
+  height: 297mm;
+}
+
+div {
+  width: 57mm;
+  height: 90mm;
+  position: absolute;
+  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#primera {
+  left: 18mm;
+  top: 11mm;
+  background-image: url(../img/Watch1.png);
+}
+#segona {
+  left: 77mm;
+  top: 11mm;
+  background-image: url(../img/Watch2.png);
+}
+#tercera {
+  left: 137mm;
+  top: 11mm;
+  background-image: url(../img/Watch3.png);
+}
+#cuarta {
+  left: 18mm;
+  top: 104mm;
+  background-image: url(../img/Watch4.png);
+}
+#quinta {
+  left: 77mm;
+  top: 104mm;
+  background-image: url(../img/Watch5.png);
+}
+#sexta {
+  left: 137mm;
+  top: 104mm;
+  background-image: url(../img/Watch6.png);
+}
+#septima {
+  left: 18mm;
+  top: 196mm;
+  background-image: url(../img/Watch7.png);
+}
+#octava {
+  left: 77mm;
+  top: 196mm;
+  background-image: url(../img/Watch8.png);
+}
+#novena {
+  left: 137mm;
+  top: 196mm;
+  background-image: url(../img/Watch9.png);
+}

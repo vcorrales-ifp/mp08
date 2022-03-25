@@ -1,0 +1,38 @@
+body {
+}
+
+div {
+  width: 57mm;
+  height: 90mm;
+  float: left;
+  margin: 1em;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#primera {
+  background-image: url(../img/Watch1.png);
+}
+#segona {
+  background-image: url(../img/Watch2.png);
+}
+#tercera {
+  background-image: url(../img/Watch3.png);
+}
+#cuarta {
+  background-image: url(../img/Watch4.png);
+}
+#quinta {
+  background-image: url(../img/Watch5.png);
+}
+#sexta {
+  background-image: url(../img/Watch6.png);
+}
+#septima {
+  background-image: url(../img/Watch7.png);
+}
+#octava {
+  background-image: url(../img/Watch8.png);
+}
+#novena {
+  background-image: url(../img/Watch9.png);
+}

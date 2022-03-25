@@ -1,0 +1,52 @@
+body {
+
+}
+
+div {
+  background-color: red;
+  height: 10em;
+  width: 10em;
+  background-size: cover;
+  background-position: center;
+}
+.flotatE {
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/greninja.jpg);
+}
+
+.flotatR {
+  float: right;
+  margin: 0 0 1em 1em;
+  background-image: url(../img/mew.jpg);
+}
+
+.capitular {
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/capitular.jpg);
+  width: 2.8em;
+  height: 2.8em;
+}
+
+h3 {
+  clear: both;
+}
+
+span {
+  color: red;
+  visibility: hidden;
+  display: none;
+}
+
+.columna {
+  width: 40%;
+  margin: 0 5%;
+}
+
+.E {
+  float: left;
+}
+.D {
+  float: right;
+}

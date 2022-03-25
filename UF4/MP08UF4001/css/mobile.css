@@ -1,0 +1,103 @@
+body {
+  background: red;
+  font-size: 1.5rem;
+}
+
+p::after {
+  content:'';
+  display: block;
+  height: 10rem;
+  width: 10rem;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png);
+  background-size: cover;
+}
+
+
+  nav ul li:hover{
+    background: blue;
+  }
+
+@media screen and (max-width:700px) {
+  body {
+    background: orange;
+  }
+
+  p::after {
+    content:'';
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png);
+    background-size: cover;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    background: red;
+    width: 6rem;
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  nav ul{
+  padding: 0;
+  }
+
+  nav ul li ul {
+    display: none;
+    margin: 0.2rem 0;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    left: 7rem;
+    top: -6.5px;
+  }
+
+  nav ul li ul li {
+    clear: both;
+  }
+}
+
+@media screen and (min-width:700px) {
+  body {
+    background: grey;
+  }
+
+  p::after {
+    content:'';
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png);
+    background-size: cover;
+  }
+
+  nav ul li {
+    display: block;
+    float: left;
+    margin: 0.2rem 0;
+    padding: 0.2rem;
+    background: blue;
+  }
+
+  nav ul{
+  padding: 0;
+  }
+
+  nav ul li ul {
+    display: none;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+  }
+
+  nav ul li ul li {
+    clear: both;
+  }
+
+}
